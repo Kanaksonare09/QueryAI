@@ -136,75 +136,6 @@ Every natural language question goes through this pipeline:
 
 ---
 
-## 🚀 Quick Start
-
-### Prerequisites
-
-- **Python 3.9+** and **Node.js 18+**
-- **MySQL** running locally (port 3306)
-- **Ollama** installed — [download here](https://ollama.com/download)
-
-### 1. Pull Local Models
-
-```bash
-ollama pull qwen2.5:7b        # SQL generation + insights
-ollama pull nomic-embed-text  # Schema embeddings for RAG
-```
-
-### 2. Set Up the Database
-
-```bash
-mysql -u root -p < database/schema.sql   # Create tables
-mysql -u root -p < database/seed.sql     # Load demo data
-```
-
-### 3. Configure Environment
-
-```bash
-cp .env.example .env
-# Edit .env with your MySQL credentials
-```
-
-Key variables:
-```env
-BIZ_DATABASE_URL=mysql+pymysql://root:password@localhost:3306/ai_assistant_demo
-OLLAMA_BASE_URL=http://localhost:11434
-OLLAMA_MODEL=qwen2.5:7b
-CHROMA_HOST=localhost
-CHROMA_PORT=8000
-```
-
-### 4. Start ChromaDB
-
-```bash
-mkdir -p storage/chroma_data
-chroma run --path ./storage/chroma_data --host localhost --port 8000
-```
-
-### 5. Start the Backend
-
-```bash
-cd QueryAI/backend
-pip install -r requirements.txt
-uvicorn app.main:app --host 0.0.0.0 --port 8080 --reload
-```
-
-### 6. Start the Frontend
-
-```bash
-cd frontend
-npm install
-npm run dev
-```
-
-### 7. Open the App
-
-```
-http://localhost:3000
-```
-
----
-
 ## 💡 Example Questions
 
 ```
@@ -232,39 +163,6 @@ The database is **read-only** from the chat interface. All generated SQL is vali
 | **4. Complexity Guard** | Rejects queries with more than 10 JOINs |
 
 If any layer fails → request is rejected and explained to the user. **The DB is never touched.**
-
----
-
-## 📊 Demo Database
-
-The seed data represents a fictional B2B software company **NexaCorp** with:
-
-| Table | Records | Contains |
-|---|---|---|
-| `regions` | 6 | NA East/West, Europe West/Central, Asia Pacific, Latin America |
-| `employees` | 8 | Sales reps, VP, CTO, CFO, Marketing Director |
-| `customers` | 12 | Enterprise & SMB customers across all regions |
-| `products` | 12 | Analytics, Security, Cloud, Consulting, Support packages |
-| `categories` | 8 | Software, Hardware, Services sub-categories |
-| `orders` | 45 | Real transactions from Q1 2024 → Q4 2025 |
-| `order_items` | ~80 | Line items per order with quantity, price, discount |
-
----
-
-## 🌐 API Reference
-
-Base URL: `http://localhost:8080`
-
-| Method | Endpoint | Description |
-|---|---|---|
-| `POST` | `/api/v1/chat/message` | Main chat endpoint (UI-optimized response) |
-| `POST` | `/api/v1/query` | Direct pipeline — question → SQL → results |
-| `POST` | `/api/v1/query/validate` | Validate SQL only (no execution) |
-| `GET` | `/api/v1/schema` | Database schema metadata |
-| `GET` | `/api/v1/history` | Query audit log |
-| `GET` | `/api/v1/system/status` | Health of all services |
-
-Interactive docs: [http://localhost:8080/api/docs](http://localhost:8080/api/docs)
 
 ---
 
@@ -306,17 +204,6 @@ text-to-sql/
 | **SQL Safety** | sqlglot (AST parsing) |
 | **Databases** | MySQL 8.0 (business data), SQLite (metadata) |
 | **Testing** | pytest (19 tests — unit + integration) |
-
----
-
-## 🧪 Running Tests
-
-```bash
-cd QueryAI/backend
-pytest tests/ -v
-```
-
-Expected output: **19 passed** covering SQL safety, RAG retrieval, and API endpoints.
 
 ---
 
