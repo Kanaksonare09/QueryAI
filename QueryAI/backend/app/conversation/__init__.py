@@ -1,0 +1,1 @@
+"""QueryAI — Conversation management package."""

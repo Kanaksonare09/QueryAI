@@ -1,0 +1,1353 @@
+[33mWARNING[0m:  [17-09-2026 14:24:39] chroma_server_nofile is set to 65535, but this is less than current soft limit of 1048575. chroma_server_nofile will not be set.
+[32mINFO[0m:     [17-09-2026 14:24:40] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [17-09-2026 14:24:40] Starting component System
+[36mDEBUG[0m:    [17-09-2026 14:24:40] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [17-09-2026 14:24:40] Starting component SqliteDB
+[36mDEBUG[0m:    [17-09-2026 14:24:40] Starting component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [17-09-2026 14:24:40] Starting component Posthog
+[36mDEBUG[0m:    [17-09-2026 14:24:40] Starting component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [17-09-2026 14:24:40] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [17-09-2026 14:24:40] Starting component LocalExecutor
+[36mDEBUG[0m:    [17-09-2026 14:24:40] Starting component SegmentAPI
+[31mERROR[0m:    [17-09-2026 14:24:40] Failed to send telemetry event ServerStartEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [17-09-2026 14:24:40] Started server process [[36m4247[0m]
+[32mINFO[0m:     [17-09-2026 14:24:40] Waiting for application startup.
+[32mINFO[0m:     [17-09-2026 14:24:40] Application startup complete.
+[32mINFO[0m:     [17-09-2026 14:24:40] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [17-09-2026 14:24:44] ::1:49720 - "GET /api/v1/heartbeat HTTP/1.1" 200
+[32mINFO[0m:     [17-09-2026 17:58:22] ::1:49874 - "GET /api/v1/heartbeat HTTP/1.1" 200
+[32mINFO[0m:     [17-09-2026 22:16:54] Shutting down
+[32mINFO[0m:     [17-09-2026 22:16:54] Waiting for application shutdown.
+[36mDEBUG[0m:    [17-09-2026 22:16:54] Stopping component System
+[36mDEBUG[0m:    [17-09-2026 22:16:54] Stopping component SegmentAPI
+[36mDEBUG[0m:    [17-09-2026 22:16:54] Stopping component LocalExecutor
+[36mDEBUG[0m:    [17-09-2026 22:16:54] Stopping component LocalSegmentManager
+[36mDEBUG[0m:    [17-09-2026 22:16:54] Stopping component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [17-09-2026 22:16:54] Stopping component Posthog
+[36mDEBUG[0m:    [17-09-2026 22:16:54] Stopping component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [17-09-2026 22:16:54] Stopping component SqliteDB
+[36mDEBUG[0m:    [17-09-2026 22:16:54] Stopping component OpenTelemetryClient
+[32mINFO[0m:     [17-09-2026 22:16:54] Application shutdown complete.
+[32mINFO[0m:     [17-09-2026 22:16:54] Finished server process [[36m4247[0m]
+[33mWARNING[0m:  [05-10-2026 21:07:40] chroma_server_nofile is set to 65535, but this is less than current soft limit of 1048575. chroma_server_nofile will not be set.
+[32mINFO[0m:     [05-10-2026 21:07:40] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [05-10-2026 21:07:40] Starting component System
+[36mDEBUG[0m:    [05-10-2026 21:07:40] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [05-10-2026 21:07:40] Starting component SqliteDB
+[36mDEBUG[0m:    [05-10-2026 21:07:40] Starting component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [05-10-2026 21:07:40] Starting component Posthog
+[36mDEBUG[0m:    [05-10-2026 21:07:40] Starting component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [05-10-2026 21:07:40] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [05-10-2026 21:07:40] Starting component LocalExecutor
+[36mDEBUG[0m:    [05-10-2026 21:07:40] Starting component SegmentAPI
+[31mERROR[0m:    [05-10-2026 21:07:40] Failed to send telemetry event ServerStartEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-10-2026 21:07:40] Started server process [[36m4471[0m]
+[32mINFO[0m:     [05-10-2026 21:07:40] Waiting for application startup.
+[32mINFO[0m:     [05-10-2026 21:07:40] Application startup complete.
+[32mINFO[0m:     [05-10-2026 21:07:40] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [05-10-2026 21:08:27] ::1:49440 - "GET /api/v1/heartbeat HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 21:09:21] ::1:49467 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 21:09:21] ::1:49468 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 21:09:21] ::1:49468 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[31mERROR[0m:    [05-10-2026 21:09:21] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-10-2026 21:09:21] ::1:49467 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 21:09:21] ::1:49467 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/74772447-ef12-4d2b-8054-50c1758d1a61/count HTTP/1.1" 200
+[36mDEBUG[0m:    [05-10-2026 21:09:51] Collection documents already exists, returning existing collection.
+[31mERROR[0m:    [05-10-2026 21:09:51] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-10-2026 21:09:51] ::1:49483 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 21:09:51] ::1:49483 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/74772447-ef12-4d2b-8054-50c1758d1a61/count HTTP/1.1" 200
+[36mDEBUG[0m:    [05-10-2026 21:10:21] Collection documents already exists, returning existing collection.
+[31mERROR[0m:    [05-10-2026 21:10:21] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-10-2026 21:10:21] ::1:49495 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 21:10:21] ::1:49495 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/74772447-ef12-4d2b-8054-50c1758d1a61/count HTTP/1.1" 200
+[36mDEBUG[0m:    [05-10-2026 21:10:43] Collection documents already exists, returning existing collection.
+[31mERROR[0m:    [05-10-2026 21:10:43] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-10-2026 21:10:43] ::1:49507 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 21:10:43] ::1:49507 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/74772447-ef12-4d2b-8054-50c1758d1a61/count HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 21:19:32] ::1:49591 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 21:19:32] ::1:49592 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 21:19:32] ::1:49592 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [05-10-2026 21:19:32] Collection documents already exists, returning existing collection.
+[31mERROR[0m:    [05-10-2026 21:19:32] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-10-2026 21:19:32] ::1:49591 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 21:19:32] ::1:49591 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/74772447-ef12-4d2b-8054-50c1758d1a61/count HTTP/1.1" 200
+[36mDEBUG[0m:    [05-10-2026 21:19:33] Collection documents already exists, returning existing collection.
+[31mERROR[0m:    [05-10-2026 21:19:33] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-10-2026 21:19:33] ::1:49591 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 21:19:33] ::1:49591 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/74772447-ef12-4d2b-8054-50c1758d1a61/count HTTP/1.1" 200
+[36mDEBUG[0m:    [05-10-2026 21:20:02] Collection documents already exists, returning existing collection.
+[31mERROR[0m:    [05-10-2026 21:20:02] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-10-2026 21:20:02] ::1:49612 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 21:20:02] ::1:49612 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/74772447-ef12-4d2b-8054-50c1758d1a61/count HTTP/1.1" 200
+[36mDEBUG[0m:    [05-10-2026 21:20:32] Collection documents already exists, returning existing collection.
+[31mERROR[0m:    [05-10-2026 21:20:32] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-10-2026 21:20:32] ::1:49618 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 21:20:32] ::1:49618 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/74772447-ef12-4d2b-8054-50c1758d1a61/count HTTP/1.1" 200
+[36mDEBUG[0m:    [05-10-2026 21:21:16] Collection documents already exists, returning existing collection.
+[31mERROR[0m:    [05-10-2026 21:21:16] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-10-2026 21:21:16] ::1:49624 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 21:21:16] ::1:49624 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/74772447-ef12-4d2b-8054-50c1758d1a61/count HTTP/1.1" 200
+[36mDEBUG[0m:    [05-10-2026 21:22:03] Collection documents already exists, returning existing collection.
+[31mERROR[0m:    [05-10-2026 21:22:03] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-10-2026 21:22:03] ::1:49638 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 21:22:03] ::1:49638 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/74772447-ef12-4d2b-8054-50c1758d1a61/count HTTP/1.1" 200
+[36mDEBUG[0m:    [05-10-2026 21:23:41] Collection documents already exists, returning existing collection.
+[31mERROR[0m:    [05-10-2026 21:23:41] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-10-2026 21:23:41] ::1:49644 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 21:23:41] ::1:49644 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/74772447-ef12-4d2b-8054-50c1758d1a61/count HTTP/1.1" 200
+[36mDEBUG[0m:    [05-10-2026 21:25:22] Collection documents already exists, returning existing collection.
+[31mERROR[0m:    [05-10-2026 21:25:22] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-10-2026 21:25:22] ::1:49650 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 21:25:22] ::1:49650 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/74772447-ef12-4d2b-8054-50c1758d1a61/count HTTP/1.1" 200
+[36mDEBUG[0m:    [05-10-2026 21:26:32] Collection documents already exists, returning existing collection.
+[31mERROR[0m:    [05-10-2026 21:26:32] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-10-2026 21:26:32] ::1:49667 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 21:26:32] ::1:49667 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/74772447-ef12-4d2b-8054-50c1758d1a61/count HTTP/1.1" 200
+[36mDEBUG[0m:    [05-10-2026 21:26:33] Collection documents already exists, returning existing collection.
+[31mERROR[0m:    [05-10-2026 21:26:33] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-10-2026 21:26:33] ::1:49667 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 21:26:33] ::1:49667 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/74772447-ef12-4d2b-8054-50c1758d1a61/count HTTP/1.1" 200
+[36mDEBUG[0m:    [05-10-2026 21:27:03] Collection documents already exists, returning existing collection.
+[31mERROR[0m:    [05-10-2026 21:27:03] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-10-2026 21:27:03] ::1:49730 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 21:27:03] ::1:49730 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/74772447-ef12-4d2b-8054-50c1758d1a61/count HTTP/1.1" 200
+[36mDEBUG[0m:    [05-10-2026 21:27:33] Collection documents already exists, returning existing collection.
+[31mERROR[0m:    [05-10-2026 21:27:33] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-10-2026 21:27:33] ::1:49736 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 21:27:33] ::1:49736 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/74772447-ef12-4d2b-8054-50c1758d1a61/count HTTP/1.1" 200
+[36mDEBUG[0m:    [05-10-2026 21:28:03] Collection documents already exists, returning existing collection.
+[31mERROR[0m:    [05-10-2026 21:28:03] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-10-2026 21:28:03] ::1:49742 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 21:28:03] ::1:49742 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/74772447-ef12-4d2b-8054-50c1758d1a61/count HTTP/1.1" 200
+[36mDEBUG[0m:    [05-10-2026 21:29:45] Collection documents already exists, returning existing collection.
+[31mERROR[0m:    [05-10-2026 21:29:45] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-10-2026 21:29:45] ::1:49748 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 21:29:45] ::1:49748 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/74772447-ef12-4d2b-8054-50c1758d1a61/count HTTP/1.1" 200
+[36mDEBUG[0m:    [05-10-2026 21:30:58] Collection documents already exists, returning existing collection.
+[31mERROR[0m:    [05-10-2026 21:30:58] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-10-2026 21:30:58] ::1:49755 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 21:30:58] ::1:49755 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/74772447-ef12-4d2b-8054-50c1758d1a61/count HTTP/1.1" 200
+[36mDEBUG[0m:    [05-10-2026 21:45:19] Collection documents already exists, returning existing collection.
+[31mERROR[0m:    [05-10-2026 21:45:19] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-10-2026 21:45:19] ::1:49863 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 21:45:19] ::1:49863 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/74772447-ef12-4d2b-8054-50c1758d1a61/count HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 22:23:57] ::1:50149 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 22:23:57] ::1:50150 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 22:23:57] ::1:50150 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[31mERROR[0m:    [05-10-2026 22:23:57] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-10-2026 22:23:57] ::1:50149 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 22:23:57] ::1:50149 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 22:23:57] ::1:50149 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 22:23:57] ::1:50149 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 22:24:47] ::1:50164 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 22:24:47] ::1:50165 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 22:24:47] ::1:50165 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [05-10-2026 22:24:47] Collection documents already exists, returning existing collection.
+[31mERROR[0m:    [05-10-2026 22:24:47] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-10-2026 22:24:47] ::1:50164 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 22:24:47] ::1:50164 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/74772447-ef12-4d2b-8054-50c1758d1a61/count HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 22:27:01] ::1:50184 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 22:27:01] ::1:50185 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 22:27:01] ::1:50185 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [05-10-2026 22:27:01] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [05-10-2026 22:27:01] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-10-2026 22:27:01] ::1:50184 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 22:27:01] ::1:50184 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 22:27:01] ::1:50184 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 22:27:01] ::1:50184 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 22:27:11] ::1:50192 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 22:27:11] ::1:50193 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 22:27:11] ::1:50193 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [05-10-2026 22:27:11] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [05-10-2026 22:27:11] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-10-2026 22:27:11] ::1:50192 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 22:27:11] ::1:50192 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 22:27:11] ::1:50192 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 22:27:11] ::1:50192 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 22:37:06] ::1:50225 - "GET /api/v1/heartbeat HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 22:42:00] ::1:50241 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 22:42:00] ::1:50242 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 22:42:00] ::1:50242 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [05-10-2026 22:42:00] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [05-10-2026 22:42:00] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-10-2026 22:42:00] ::1:50241 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[36mDEBUG[0m:    [05-10-2026 22:42:00] Starting component PersistentLocalHnswSegment
+[33mWARNING[0m:  [05-10-2026 22:42:00] Delete of nonexisting embedding ID: table_categories
+[33mWARNING[0m:  [05-10-2026 22:42:00] Delete of nonexisting embedding ID: table_customers
+[33mWARNING[0m:  [05-10-2026 22:42:00] Delete of nonexisting embedding ID: table_employees
+[33mWARNING[0m:  [05-10-2026 22:42:00] Delete of nonexisting embedding ID: table_order_items
+[33mWARNING[0m:  [05-10-2026 22:42:00] Delete of nonexisting embedding ID: table_orders
+[33mWARNING[0m:  [05-10-2026 22:42:00] Delete of nonexisting embedding ID: table_products
+[33mWARNING[0m:  [05-10-2026 22:42:00] Delete of nonexisting embedding ID: table_regions
+[31mERROR[0m:    [05-10-2026 22:42:00] Failed to send telemetry event CollectionDeleteEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-10-2026 22:42:00] ::1:50241 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/delete HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 22:42:01] ::1:50241 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[31mERROR[0m:    [05-10-2026 22:42:01] Failed to send telemetry event CollectionAddEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-10-2026 22:42:01] ::1:50241 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/add HTTP/1.1" 201
+[36mDEBUG[0m:    [05-10-2026 22:42:01] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [05-10-2026 22:42:01] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-10-2026 22:42:01] ::1:50241 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 22:42:01] ::1:50241 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 22:42:01] ::1:50241 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[31mERROR[0m:    [05-10-2026 22:42:01] Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-10-2026 22:42:01] ::1:50241 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/query HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 22:50:57] ::1:50295 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 22:50:57] ::1:50296 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 22:50:57] ::1:50296 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [05-10-2026 22:50:57] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [05-10-2026 22:50:57] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-10-2026 22:50:57] ::1:50295 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 22:50:57] ::1:50295 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 22:50:57] ::1:50295 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 22:50:57] ::1:50295 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/query HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 22:54:40] ::1:50364 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 22:54:40] ::1:50365 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 22:54:40] ::1:50365 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [05-10-2026 22:54:40] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [05-10-2026 22:54:40] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-10-2026 22:54:40] ::1:50364 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 22:54:40] ::1:50364 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 22:54:40] ::1:50364 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:01:46] ::1:50431 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:01:46] ::1:50432 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:01:46] ::1:50432 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [05-10-2026 23:01:46] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [05-10-2026 23:01:46] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-10-2026 23:01:46] ::1:50431 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:01:46] ::1:50431 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:01:46] ::1:50431 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:01:47] ::1:50431 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/query HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:02:59] ::1:50498 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:02:59] ::1:50499 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:02:59] ::1:50499 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [05-10-2026 23:02:59] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [05-10-2026 23:02:59] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-10-2026 23:02:59] ::1:50498 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:02:59] ::1:50498 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:02:59] ::1:50498 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:02:59] ::1:50498 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:05:40] ::1:50526 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:05:40] ::1:50527 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:05:40] ::1:50527 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [05-10-2026 23:05:40] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [05-10-2026 23:05:40] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-10-2026 23:05:40] ::1:50526 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:05:40] ::1:50526 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:05:40] ::1:50526 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:05:40] ::1:50526 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:06:34] ::1:50549 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:06:34] ::1:50550 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:06:34] ::1:50550 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [05-10-2026 23:06:34] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [05-10-2026 23:06:34] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-10-2026 23:06:34] ::1:50549 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:06:34] ::1:50549 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:06:34] ::1:50549 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:06:34] ::1:50549 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:07:00] ::1:50558 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:07:00] ::1:50559 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:07:00] ::1:50559 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [05-10-2026 23:07:00] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [05-10-2026 23:07:00] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-10-2026 23:07:00] ::1:50558 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:07:00] ::1:50558 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:07:00] ::1:50558 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:07:00] ::1:50558 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:07:53] ::1:50569 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:07:53] ::1:50570 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:07:53] ::1:50570 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [05-10-2026 23:07:53] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [05-10-2026 23:07:53] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-10-2026 23:07:53] ::1:50569 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:07:53] ::1:50569 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:07:53] ::1:50569 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:07:53] ::1:50569 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[36mDEBUG[0m:    [05-10-2026 23:08:02] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [05-10-2026 23:08:02] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-10-2026 23:08:02] ::1:50575 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:08:02] ::1:50575 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:08:02] ::1:50575 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:08:03] ::1:50575 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/query HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:08:52] ::1:50651 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:08:52] ::1:50652 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:08:53] ::1:50652 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [05-10-2026 23:08:53] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [05-10-2026 23:08:53] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-10-2026 23:08:53] ::1:50651 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:08:53] ::1:50651 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:08:53] ::1:50651 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:08:53] ::1:50651 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[36mDEBUG[0m:    [05-10-2026 23:08:56] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [05-10-2026 23:08:56] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-10-2026 23:08:56] ::1:50655 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:08:56] ::1:50655 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:08:56] ::1:50655 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:08:56] ::1:50655 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/query HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:09:23] ::1:50678 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:09:23] ::1:50679 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:09:23] ::1:50679 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [05-10-2026 23:09:23] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [05-10-2026 23:09:23] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-10-2026 23:09:23] ::1:50678 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:09:23] ::1:50678 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:09:23] ::1:50678 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:09:23] ::1:50678 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:09:53] ::1:50685 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:09:53] ::1:50686 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:09:53] ::1:50686 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [05-10-2026 23:09:53] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [05-10-2026 23:09:53] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-10-2026 23:09:53] ::1:50685 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:09:53] ::1:50685 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:09:53] ::1:50685 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:09:53] ::1:50685 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:10:23] ::1:50694 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:10:23] ::1:50695 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:10:23] ::1:50695 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [05-10-2026 23:10:23] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [05-10-2026 23:10:23] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-10-2026 23:10:23] ::1:50694 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:10:23] ::1:50694 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:10:23] ::1:50694 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:10:23] ::1:50694 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:10:53] ::1:50702 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:10:53] ::1:50706 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:10:53] ::1:50706 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [05-10-2026 23:10:53] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [05-10-2026 23:10:53] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [05-10-2026 23:10:53] ::1:50702 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:10:53] ::1:50702 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:10:53] ::1:50702 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:10:53] ::1:50702 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [05-10-2026 23:11:26] Shutting down
+[32mINFO[0m:     [05-10-2026 23:11:26] Waiting for application shutdown.
+[36mDEBUG[0m:    [05-10-2026 23:11:26] Stopping component System
+[36mDEBUG[0m:    [05-10-2026 23:11:26] Stopping component SegmentAPI
+[36mDEBUG[0m:    [05-10-2026 23:11:26] Stopping component LocalExecutor
+[36mDEBUG[0m:    [05-10-2026 23:11:26] Stopping component PersistentLocalHnswSegment
+[36mDEBUG[0m:    [05-10-2026 23:11:26] Stopping component LocalSegmentManager
+[36mDEBUG[0m:    [05-10-2026 23:11:26] Stopping component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [05-10-2026 23:11:26] Stopping component Posthog
+[36mDEBUG[0m:    [05-10-2026 23:11:26] Stopping component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [05-10-2026 23:11:26] Stopping component SqliteDB
+[36mDEBUG[0m:    [05-10-2026 23:11:26] Stopping component OpenTelemetryClient
+[32mINFO[0m:     [05-10-2026 23:11:26] Application shutdown complete.
+[32mINFO[0m:     [05-10-2026 23:11:26] Finished server process [[36m4471[0m]
+[33mWARNING[0m:  [06-10-2026 09:07:06] chroma_server_nofile is set to 65535, but this is less than current soft limit of 1048575. chroma_server_nofile will not be set.
+[32mINFO[0m:     [06-10-2026 09:07:07] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [06-10-2026 09:07:07] Starting component System
+[36mDEBUG[0m:    [06-10-2026 09:07:07] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [06-10-2026 09:07:07] Starting component SqliteDB
+[36mDEBUG[0m:    [06-10-2026 09:07:07] Starting component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [06-10-2026 09:07:07] Starting component Posthog
+[36mDEBUG[0m:    [06-10-2026 09:07:07] Starting component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [06-10-2026 09:07:07] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [06-10-2026 09:07:07] Starting component LocalExecutor
+[36mDEBUG[0m:    [06-10-2026 09:07:07] Starting component SegmentAPI
+[31mERROR[0m:    [06-10-2026 09:07:07] Failed to send telemetry event ServerStartEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 09:07:07] Started server process [[36m2676[0m]
+[32mINFO[0m:     [06-10-2026 09:07:07] Waiting for application startup.
+[32mINFO[0m:     [06-10-2026 09:07:07] Application startup complete.
+[32mINFO[0m:     [06-10-2026 09:07:07] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [06-10-2026 09:07:28] ::1:49396 - "GET /api/v1/heartbeat HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:07:35] ::1:49399 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:07:35] ::1:49400 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:07:35] ::1:49400 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 09:07:35] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 09:07:35] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 09:07:35] ::1:49399 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:07:35] ::1:49399 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:07:35] ::1:49399 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:07:35] ::1:49399 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:07:50] ::1:49409 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:07:50] ::1:49410 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:07:50] ::1:49410 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 09:07:50] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 09:07:50] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 09:07:50] ::1:49409 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:07:50] ::1:49409 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:07:50] ::1:49409 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:07:50] ::1:49409 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:08:38] ::1:49428 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:08:38] ::1:49429 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:08:38] ::1:49429 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 09:08:38] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 09:08:38] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 09:08:38] ::1:49428 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:08:38] ::1:49428 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:08:38] ::1:49428 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:08:38] ::1:49428 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 09:08:45] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 09:08:45] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 09:08:45] ::1:49433 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:08:45] ::1:49433 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:08:45] ::1:49433 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[31mERROR[0m:    [06-10-2026 09:08:46] Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+[36mDEBUG[0m:    [06-10-2026 09:08:46] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [06-10-2026 09:08:46] ::1:49433 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/query HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:09:08] ::1:49480 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:09:08] ::1:49481 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:09:08] ::1:49481 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 09:09:08] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 09:09:08] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 09:09:08] ::1:49480 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:09:08] ::1:49480 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:09:08] ::1:49480 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:09:08] ::1:49480 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:09:38] ::1:49490 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:09:38] ::1:49491 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:09:38] ::1:49491 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 09:09:38] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 09:09:38] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 09:09:38] ::1:49490 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:09:38] ::1:49490 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:09:38] ::1:49490 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:09:38] ::1:49490 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:10:08] ::1:49515 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:10:08] ::1:49516 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:10:08] ::1:49516 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 09:10:08] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 09:10:08] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 09:10:08] ::1:49515 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:10:08] ::1:49515 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:10:08] ::1:49515 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:10:08] ::1:49515 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:10:39] ::1:49523 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:10:39] ::1:49524 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:10:39] ::1:49524 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 09:10:39] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 09:10:39] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 09:10:39] ::1:49523 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:10:39] ::1:49523 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:10:39] ::1:49523 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:10:39] ::1:49523 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 09:10:43] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 09:10:43] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 09:10:43] ::1:49527 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:10:43] ::1:49527 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:10:43] ::1:49527 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:10:43] ::1:49527 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/query HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:11:09] ::1:49556 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:11:09] ::1:49557 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:11:09] ::1:49557 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 09:11:09] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 09:11:09] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 09:11:09] ::1:49556 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:11:09] ::1:49556 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:11:09] ::1:49556 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:11:09] ::1:49556 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:11:39] ::1:49564 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:11:39] ::1:49565 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:11:39] ::1:49565 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 09:11:39] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 09:11:39] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 09:11:39] ::1:49564 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:11:39] ::1:49564 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:11:39] ::1:49564 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:11:39] ::1:49564 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:12:26] ::1:49572 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:12:26] ::1:49573 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:12:26] ::1:49573 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 09:12:26] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 09:12:26] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 09:12:26] ::1:49572 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:12:26] ::1:49572 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:12:26] ::1:49572 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:12:26] ::1:49572 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:13:06] ::1:49584 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:13:06] ::1:49585 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:13:06] ::1:49585 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 09:13:06] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 09:13:06] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 09:13:06] ::1:49584 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:13:06] ::1:49584 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:13:06] ::1:49584 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:13:06] ::1:49584 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:13:46] ::1:49594 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:13:46] ::1:49595 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:13:46] ::1:49595 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 09:13:46] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 09:13:46] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 09:13:46] ::1:49594 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:13:46] ::1:49594 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:13:46] ::1:49594 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:13:46] ::1:49594 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:15:59] ::1:49618 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:15:59] ::1:49619 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:15:59] ::1:49619 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 09:15:59] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 09:15:59] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 09:15:59] ::1:49618 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:15:59] ::1:49618 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:15:59] ::1:49618 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:15:59] ::1:49618 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:16:29] ::1:49630 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:16:29] ::1:49631 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:16:29] ::1:49631 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 09:16:29] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 09:16:29] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 09:16:29] ::1:49630 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:16:29] ::1:49630 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:16:29] ::1:49630 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:16:29] ::1:49630 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:17:08] ::1:49637 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:17:08] ::1:49638 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:17:08] ::1:49638 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 09:17:08] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 09:17:08] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 09:17:08] ::1:49637 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:17:08] ::1:49637 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:17:08] ::1:49637 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:17:08] ::1:49637 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:18:15] ::1:49647 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:18:15] ::1:49648 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:18:15] ::1:49648 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 09:18:15] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 09:18:15] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 09:18:15] ::1:49647 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:18:15] ::1:49647 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:18:15] ::1:49647 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:18:15] ::1:49647 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:19:10] ::1:49655 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:19:10] ::1:49656 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:19:10] ::1:49656 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 09:19:10] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 09:19:10] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 09:19:10] ::1:49655 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:19:10] ::1:49655 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:19:10] ::1:49655 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:19:10] ::1:49655 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:35:34] ::1:49800 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:35:34] ::1:49801 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:35:34] ::1:49801 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 09:35:34] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 09:35:34] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 09:35:34] ::1:49800 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:35:34] ::1:49800 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:35:34] ::1:49800 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:35:34] ::1:49800 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:35:35] ::1:49803 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:35:35] ::1:49804 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:35:35] ::1:49804 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 09:35:35] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 09:35:35] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 09:35:35] ::1:49803 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:35:35] ::1:49803 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:35:35] ::1:49803 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:35:35] ::1:49803 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:36:03] ::1:49809 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:36:03] ::1:49810 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:36:03] ::1:49810 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 09:36:03] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 09:36:03] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 09:36:03] ::1:49809 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:36:03] ::1:49809 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:36:03] ::1:49809 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:36:03] ::1:49809 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:36:04] ::1:49812 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:36:04] ::1:49813 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:36:04] ::1:49813 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 09:36:04] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 09:36:04] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 09:36:04] ::1:49812 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:36:04] ::1:49812 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:36:04] ::1:49812 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:36:04] ::1:49812 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:36:21] ::1:49818 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:36:21] ::1:49819 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:36:21] ::1:49819 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 09:36:21] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 09:36:21] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 09:36:21] ::1:49818 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:36:21] ::1:49818 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:36:21] ::1:49818 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:36:21] ::1:49818 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:36:22] ::1:49821 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:36:22] ::1:49822 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:36:22] ::1:49822 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 09:36:22] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 09:36:22] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 09:36:22] ::1:49821 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:36:22] ::1:49821 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:36:22] ::1:49821 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:36:22] ::1:49821 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:37:06] ::1:49828 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:37:06] ::1:49829 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:37:06] ::1:49829 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 09:37:07] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 09:37:07] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 09:37:07] ::1:49828 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:37:07] ::1:49828 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:37:07] ::1:49828 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:37:07] ::1:49828 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:37:07] ::1:49831 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:37:07] ::1:49832 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:37:07] ::1:49832 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 09:37:07] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 09:37:07] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 09:37:07] ::1:49831 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:37:07] ::1:49831 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:37:07] ::1:49831 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:37:07] ::1:49831 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:37:37] ::1:49838 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:37:37] ::1:49839 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:37:37] ::1:49839 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 09:37:37] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 09:37:37] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 09:37:37] ::1:49838 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:37:37] ::1:49838 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:37:37] ::1:49838 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:37:37] ::1:49838 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:37:38] ::1:49841 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:37:38] ::1:49842 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:37:38] ::1:49842 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 09:37:38] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 09:37:38] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 09:37:38] ::1:49841 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:37:38] ::1:49841 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:37:38] ::1:49841 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:37:38] ::1:49841 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:38:13] ::1:49848 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:38:13] ::1:49849 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:38:13] ::1:49849 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 09:38:13] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 09:38:13] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 09:38:13] ::1:49848 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:38:13] ::1:49848 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:38:13] ::1:49848 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:38:13] ::1:49848 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:38:14] ::1:49851 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:38:14] ::1:49852 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:38:14] ::1:49852 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 09:38:14] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 09:38:14] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 09:38:14] ::1:49851 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:38:14] ::1:49851 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:38:14] ::1:49851 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:38:14] ::1:49851 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:38:50] ::1:49858 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:38:50] ::1:49859 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:38:50] ::1:49859 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 09:38:50] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 09:38:50] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 09:38:50] ::1:49858 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:38:50] ::1:49858 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:38:50] ::1:49858 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:38:50] ::1:49858 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:38:51] ::1:49862 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:38:51] ::1:49863 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:38:51] ::1:49863 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 09:38:51] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 09:38:51] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 09:38:51] ::1:49862 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:38:51] ::1:49862 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:38:51] ::1:49862 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:38:51] ::1:49862 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:42:41] ::1:50021 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:42:41] ::1:50022 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:42:41] ::1:50022 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 09:42:41] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 09:42:41] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 09:42:41] ::1:50021 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:42:41] ::1:50021 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:42:41] ::1:50021 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:42:41] ::1:50021 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:42:56] ::1:50028 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:42:56] ::1:50029 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:42:56] ::1:50029 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 09:42:56] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 09:42:56] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 09:42:56] ::1:50028 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:42:56] ::1:50028 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:42:56] ::1:50028 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:42:56] ::1:50028 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:43:19] ::1:50035 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:43:19] ::1:50036 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:43:19] ::1:50036 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 09:43:19] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 09:43:19] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 09:43:19] ::1:50035 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:43:19] ::1:50035 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:43:19] ::1:50035 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:43:19] ::1:50035 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:43:20] ::1:50038 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:43:20] ::1:50039 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:43:20] ::1:50039 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 09:43:20] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 09:43:20] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 09:43:20] ::1:50038 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:43:20] ::1:50038 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:43:20] ::1:50038 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:43:20] ::1:50038 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:43:30] ::1:50044 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:43:30] ::1:50045 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:43:30] ::1:50045 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 09:43:30] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 09:43:30] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 09:43:30] ::1:50044 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:43:30] ::1:50044 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:43:30] ::1:50044 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:43:30] ::1:50044 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:43:46] ::1:50050 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:43:46] ::1:50051 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:43:46] ::1:50051 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 09:43:46] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 09:43:46] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 09:43:46] ::1:50050 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:43:46] ::1:50050 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:43:46] ::1:50050 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:43:46] ::1:50050 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:43:47] ::1:50053 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:43:47] ::1:50054 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:43:47] ::1:50054 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 09:43:47] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 09:43:47] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 09:43:47] ::1:50053 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:43:47] ::1:50053 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:43:47] ::1:50053 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:43:47] ::1:50053 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:44:13] ::1:50063 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:44:13] ::1:50064 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:44:13] ::1:50064 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 09:44:13] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 09:44:13] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 09:44:13] ::1:50063 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:44:13] ::1:50063 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:44:13] ::1:50063 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:44:13] ::1:50063 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:44:46] ::1:50070 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:44:46] ::1:50071 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:44:46] ::1:50071 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 09:44:46] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 09:44:46] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 09:44:46] ::1:50070 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:44:46] ::1:50070 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:44:46] ::1:50070 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:44:46] ::1:50070 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:45:07] ::1:50085 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:45:07] ::1:50086 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:45:07] ::1:50086 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 09:45:07] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 09:45:07] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 09:45:07] ::1:50085 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:45:07] ::1:50085 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:45:07] ::1:50085 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:45:07] ::1:50085 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 09:45:56] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 09:45:56] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 09:45:56] ::1:50115 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:45:56] ::1:50115 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:45:56] ::1:50115 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:45:56] ::1:50115 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/query HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:50:31] ::1:50208 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:50:31] ::1:50209 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:50:31] ::1:50209 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 09:50:31] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 09:50:31] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 09:50:31] ::1:50208 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:50:31] ::1:50208 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:50:31] ::1:50208 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:50:31] ::1:50208 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:50:31] ::1:50216 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:50:31] ::1:50217 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:50:31] ::1:50217 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 09:50:31] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 09:50:31] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 09:50:31] ::1:50216 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:50:31] ::1:50216 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:50:31] ::1:50216 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:50:31] ::1:50216 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:50:34] ::1:50235 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:50:34] ::1:50236 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:50:34] ::1:50236 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 09:50:34] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 09:50:34] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 09:50:34] ::1:50235 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:50:34] ::1:50235 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:50:34] ::1:50235 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:50:34] ::1:50235 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 09:50:48] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 09:50:48] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 09:50:48] ::1:50249 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:50:48] ::1:50249 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:50:48] ::1:50249 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:50:48] ::1:50249 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/query HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:51:04] ::1:50270 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:51:04] ::1:50271 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:51:04] ::1:50271 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 09:51:04] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 09:51:04] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 09:51:04] ::1:50270 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:51:04] ::1:50270 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:51:04] ::1:50270 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:51:04] ::1:50270 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 09:51:32] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 09:51:32] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 09:51:32] ::1:50281 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:51:32] ::1:50281 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:51:32] ::1:50281 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:51:32] ::1:50281 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/query HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:51:36] ::1:50296 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:51:36] ::1:50297 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:51:36] ::1:50297 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 09:51:36] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 09:51:36] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 09:51:36] ::1:50296 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:51:36] ::1:50296 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:51:36] ::1:50296 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:51:36] ::1:50296 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:52:05] ::1:50303 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:52:05] ::1:50304 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:52:05] ::1:50304 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 09:52:05] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 09:52:05] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 09:52:05] ::1:50303 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:52:05] ::1:50303 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:52:05] ::1:50303 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:52:05] ::1:50303 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:59:56] ::1:50338 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:59:56] ::1:50339 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:59:56] ::1:50339 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 09:59:56] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 09:59:56] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 09:59:56] ::1:50338 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:59:56] ::1:50338 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:59:56] ::1:50338 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:59:56] ::1:50338 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:59:57] ::1:50341 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:59:57] ::1:50342 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:59:57] ::1:50342 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 09:59:57] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 09:59:57] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 09:59:57] ::1:50341 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:59:57] ::1:50341 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:59:57] ::1:50341 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 09:59:57] ::1:50341 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:00:08] ::1:50347 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:00:08] ::1:50348 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:00:08] ::1:50348 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 10:00:08] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 10:00:08] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 10:00:08] ::1:50347 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:00:08] ::1:50347 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:00:08] ::1:50347 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:00:08] ::1:50347 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:00:18] ::1:50355 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:00:18] ::1:50356 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:00:18] ::1:50356 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 10:00:18] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 10:00:18] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 10:00:18] ::1:50355 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:00:18] ::1:50355 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:00:18] ::1:50355 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:00:18] ::1:50355 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:00:32] ::1:50361 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:00:32] ::1:50362 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:00:32] ::1:50362 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 10:00:32] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 10:00:32] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 10:00:32] ::1:50361 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:00:32] ::1:50361 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:00:32] ::1:50361 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:00:32] ::1:50361 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:00:33] ::1:50364 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:00:33] ::1:50365 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:00:33] ::1:50365 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 10:00:33] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 10:00:33] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 10:00:33] ::1:50364 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:00:33] ::1:50364 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:00:33] ::1:50364 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:00:33] ::1:50364 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:04:47] ::1:50412 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:04:47] ::1:50413 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:04:47] ::1:50413 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 10:04:47] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 10:04:47] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 10:04:47] ::1:50412 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:04:47] ::1:50412 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:04:47] ::1:50412 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:04:47] ::1:50412 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:04:47] ::1:50418 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:04:47] ::1:50419 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:04:47] ::1:50419 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 10:04:47] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 10:04:47] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 10:04:47] ::1:50418 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:04:47] ::1:50418 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:04:47] ::1:50418 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:04:47] ::1:50418 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 10:04:58] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 10:04:58] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 10:04:58] ::1:50453 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:04:58] ::1:50453 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:04:58] ::1:50453 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:04:59] ::1:50453 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/query HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 10:06:11] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 10:06:11] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 10:06:11] ::1:50489 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:06:11] ::1:50489 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:06:11] ::1:50489 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:06:11] ::1:50489 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/query HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:06:28] ::1:50513 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:06:28] ::1:50514 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:06:28] ::1:50514 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 10:06:28] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 10:06:28] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 10:06:28] ::1:50513 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:06:28] ::1:50513 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:06:28] ::1:50513 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:06:28] ::1:50513 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 10:07:38] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 10:07:38] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 10:07:38] ::1:50528 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:07:38] ::1:50528 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:07:38] ::1:50528 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:07:38] ::1:50528 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/query HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:15:36] ::1:50577 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:15:36] ::1:50578 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:15:36] ::1:50578 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 10:15:36] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 10:15:36] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 10:15:36] ::1:50577 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:15:36] ::1:50577 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:15:36] ::1:50577 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:15:36] ::1:50577 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 10:20:12] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 10:20:12] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 10:20:12] ::1:50640 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:20:12] ::1:50640 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:20:12] ::1:50640 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:20:12] ::1:50640 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/query HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 10:20:39] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 10:20:39] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 10:20:39] ::1:50700 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:20:39] ::1:50700 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:20:39] ::1:50700 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:20:39] ::1:50700 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/query HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:21:39] ::1:50725 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:21:39] ::1:50726 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:21:39] ::1:50726 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 10:21:39] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 10:21:39] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 10:21:39] ::1:50725 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:21:39] ::1:50725 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:21:39] ::1:50725 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:21:39] ::1:50725 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 10:23:04] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 10:23:04] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 10:23:04] ::1:50743 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:23:04] ::1:50743 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:23:04] ::1:50743 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:23:04] ::1:50743 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/query HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:23:48] ::1:50780 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:23:48] ::1:50781 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:23:48] ::1:50781 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 10:23:48] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 10:23:48] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 10:23:48] ::1:50780 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:23:48] ::1:50780 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:23:48] ::1:50780 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:23:48] ::1:50780 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:31:33] ::1:50872 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:31:33] ::1:50873 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:31:33] ::1:50873 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 10:31:33] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 10:31:33] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 10:31:33] ::1:50872 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:31:33] ::1:50872 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:31:33] ::1:50872 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:31:33] ::1:50872 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:32:21] ::1:50879 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:32:21] ::1:50880 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:32:21] ::1:50880 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 10:32:21] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 10:32:21] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 10:32:21] ::1:50879 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:32:21] ::1:50879 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:32:21] ::1:50879 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:32:21] ::1:50879 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:33:57] ::1:50933 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:33:57] ::1:50934 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:33:57] ::1:50934 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 10:33:57] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 10:33:57] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 10:33:57] ::1:50933 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:33:57] ::1:50933 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:33:57] ::1:50933 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:33:57] ::1:50933 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:34:27] ::1:50949 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:34:27] ::1:50950 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:34:27] ::1:50950 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 10:34:27] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 10:34:27] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 10:34:27] ::1:50949 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:34:27] ::1:50949 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:34:27] ::1:50949 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:34:27] ::1:50949 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[33mWARNING[0m:  [06-10-2026 10:44:13] chroma_server_nofile is set to 65535, but this is less than current soft limit of 1048575. chroma_server_nofile will not be set.
+[32mINFO[0m:     [06-10-2026 10:44:13] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [06-10-2026 10:44:13] Starting component System
+[36mDEBUG[0m:    [06-10-2026 10:44:13] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [06-10-2026 10:44:13] Starting component SqliteDB
+[36mDEBUG[0m:    [06-10-2026 10:44:13] Starting component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [06-10-2026 10:44:13] Starting component Posthog
+[36mDEBUG[0m:    [06-10-2026 10:44:13] Starting component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [06-10-2026 10:44:13] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [06-10-2026 10:44:13] Starting component LocalExecutor
+[36mDEBUG[0m:    [06-10-2026 10:44:13] Starting component SegmentAPI
+[31mERROR[0m:    [06-10-2026 10:44:13] Failed to send telemetry event ServerStartEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 10:44:13] Started server process [[36m5569[0m]
+[32mINFO[0m:     [06-10-2026 10:44:13] Waiting for application startup.
+[32mINFO[0m:     [06-10-2026 10:44:13] Application startup complete.
+[31mERROR[0m:    [06-10-2026 10:44:13] [Errno 48] error while attempting to bind on address ('::1', 8000, 0, 0): address already in use
+[32mINFO[0m:     [06-10-2026 10:44:13] Waiting for application shutdown.
+[36mDEBUG[0m:    [06-10-2026 10:44:13] Stopping component System
+[36mDEBUG[0m:    [06-10-2026 10:44:13] Stopping component SegmentAPI
+[36mDEBUG[0m:    [06-10-2026 10:44:13] Stopping component LocalExecutor
+[36mDEBUG[0m:    [06-10-2026 10:44:13] Stopping component LocalSegmentManager
+[36mDEBUG[0m:    [06-10-2026 10:44:13] Stopping component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [06-10-2026 10:44:13] Stopping component Posthog
+[36mDEBUG[0m:    [06-10-2026 10:44:13] Stopping component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [06-10-2026 10:44:13] Stopping component SqliteDB
+[36mDEBUG[0m:    [06-10-2026 10:44:13] Stopping component OpenTelemetryClient
+[32mINFO[0m:     [06-10-2026 10:44:13] Application shutdown complete.
+[32mINFO[0m:     [06-10-2026 10:44:59] 127.0.0.1:51269 - "GET /api/v2/heartbeat HTTP/1.1" 200
+[36mDEBUG[0m:    [06-10-2026 10:52:49] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [06-10-2026 10:52:49] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [06-10-2026 10:52:49] ::1:51330 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:52:49] ::1:51330 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:52:49] ::1:51330 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:52:50] ::1:51330 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/query HTTP/1.1" 200
+[32mINFO[0m:     [06-10-2026 10:53:45] Shutting down
+[32mINFO[0m:     [06-10-2026 10:53:45] Waiting for application shutdown.
+[36mDEBUG[0m:    [06-10-2026 10:53:45] Stopping component System
+[36mDEBUG[0m:    [06-10-2026 10:53:45] Stopping component SegmentAPI
+[36mDEBUG[0m:    [06-10-2026 10:53:45] Stopping component LocalExecutor
+[36mDEBUG[0m:    [06-10-2026 10:53:45] Stopping component PersistentLocalHnswSegment
+[36mDEBUG[0m:    [06-10-2026 10:53:45] Stopping component LocalSegmentManager
+[36mDEBUG[0m:    [06-10-2026 10:53:45] Stopping component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [06-10-2026 10:53:45] Stopping component Posthog
+[36mDEBUG[0m:    [06-10-2026 10:53:45] Stopping component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [06-10-2026 10:53:45] Stopping component SqliteDB
+[36mDEBUG[0m:    [06-10-2026 10:53:45] Stopping component OpenTelemetryClient
+[32mINFO[0m:     [06-10-2026 10:53:45] Application shutdown complete.
+[32mINFO[0m:     [06-10-2026 10:53:45] Finished server process [[36m2676[0m]
+[33mWARNING[0m:  [07-10-2026 11:23:34] chroma_server_nofile is set to 65535, but this is less than current soft limit of 1048575. chroma_server_nofile will not be set.
+[32mINFO[0m:     [07-10-2026 11:23:35] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [07-10-2026 11:23:35] Starting component System
+[36mDEBUG[0m:    [07-10-2026 11:23:35] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [07-10-2026 11:23:35] Starting component SqliteDB
+[36mDEBUG[0m:    [07-10-2026 11:23:35] Starting component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [07-10-2026 11:23:35] Starting component Posthog
+[36mDEBUG[0m:    [07-10-2026 11:23:35] Starting component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [07-10-2026 11:23:35] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [07-10-2026 11:23:35] Starting component LocalExecutor
+[36mDEBUG[0m:    [07-10-2026 11:23:35] Starting component SegmentAPI
+[31mERROR[0m:    [07-10-2026 11:23:35] Failed to send telemetry event ServerStartEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [07-10-2026 11:23:35] Started server process [[36m2657[0m]
+[32mINFO[0m:     [07-10-2026 11:23:35] Waiting for application startup.
+[32mINFO[0m:     [07-10-2026 11:23:35] Application startup complete.
+[32mINFO[0m:     [07-10-2026 11:23:35] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [07-10-2026 11:27:53] ::1:49388 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:27:53] ::1:49389 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:27:53] ::1:49389 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [07-10-2026 11:27:53] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [07-10-2026 11:27:53] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [07-10-2026 11:27:53] ::1:49388 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:27:53] ::1:49388 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:27:53] ::1:49388 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:27:53] ::1:49388 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:30:10] ::1:49416 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:30:10] ::1:49417 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:30:10] ::1:49417 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [07-10-2026 11:30:10] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [07-10-2026 11:30:10] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [07-10-2026 11:30:10] ::1:49416 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:30:10] ::1:49416 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:30:10] ::1:49416 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:30:10] ::1:49416 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:30:40] ::1:49423 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:30:40] ::1:49424 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:30:40] ::1:49424 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [07-10-2026 11:30:40] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [07-10-2026 11:30:40] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [07-10-2026 11:30:40] ::1:49423 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:30:40] ::1:49423 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:30:40] ::1:49423 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:30:40] ::1:49423 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:31:10] ::1:49430 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:31:10] ::1:49431 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:31:10] ::1:49431 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [07-10-2026 11:31:10] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [07-10-2026 11:31:10] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [07-10-2026 11:31:10] ::1:49430 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:31:10] ::1:49430 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:31:10] ::1:49430 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:31:10] ::1:49430 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:31:40] ::1:49444 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:31:40] ::1:49445 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:31:40] ::1:49445 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [07-10-2026 11:31:40] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [07-10-2026 11:31:40] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [07-10-2026 11:31:40] ::1:49444 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:31:40] ::1:49444 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:31:40] ::1:49444 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:31:40] ::1:49444 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:32:10] ::1:49451 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:32:10] ::1:49452 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:32:10] ::1:49452 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [07-10-2026 11:32:10] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [07-10-2026 11:32:10] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [07-10-2026 11:32:10] ::1:49451 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:32:10] ::1:49451 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:32:10] ::1:49451 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:32:10] ::1:49451 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:32:40] ::1:49511 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:32:40] ::1:49512 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:32:40] ::1:49512 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [07-10-2026 11:32:40] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [07-10-2026 11:32:40] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [07-10-2026 11:32:40] ::1:49511 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:32:40] ::1:49511 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:32:40] ::1:49511 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:32:40] ::1:49511 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:33:10] ::1:49518 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:33:10] ::1:49519 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:33:10] ::1:49519 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [07-10-2026 11:33:10] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [07-10-2026 11:33:10] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [07-10-2026 11:33:10] ::1:49518 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:33:10] ::1:49518 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:33:10] ::1:49518 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:33:10] ::1:49518 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:33:40] ::1:49527 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:33:40] ::1:49528 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:33:40] ::1:49528 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [07-10-2026 11:33:40] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [07-10-2026 11:33:40] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [07-10-2026 11:33:40] ::1:49527 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:33:40] ::1:49527 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:33:40] ::1:49527 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:33:40] ::1:49527 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:34:17] ::1:49538 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:34:17] ::1:49539 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:34:17] ::1:49539 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [07-10-2026 11:34:17] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [07-10-2026 11:34:17] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [07-10-2026 11:34:17] ::1:49538 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:34:17] ::1:49538 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:34:17] ::1:49538 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:34:17] ::1:49538 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[36mDEBUG[0m:    [07-10-2026 11:34:45] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [07-10-2026 11:34:45] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [07-10-2026 11:34:45] ::1:49611 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:34:45] ::1:49611 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:34:45] ::1:49611 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[31mERROR[0m:    [07-10-2026 11:34:46] Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+[36mDEBUG[0m:    [07-10-2026 11:34:46] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [07-10-2026 11:34:46] ::1:49611 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/query HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:34:58] ::1:49636 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:34:58] ::1:49637 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:34:58] ::1:49637 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [07-10-2026 11:34:58] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [07-10-2026 11:34:58] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [07-10-2026 11:34:58] ::1:49636 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:34:58] ::1:49636 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:34:58] ::1:49636 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:34:58] ::1:49636 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:35:17] ::1:49643 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:35:17] ::1:49644 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:35:17] ::1:49644 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [07-10-2026 11:35:17] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [07-10-2026 11:35:17] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [07-10-2026 11:35:17] ::1:49643 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:35:17] ::1:49643 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:35:17] ::1:49643 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:35:17] ::1:49643 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:35:47] ::1:49650 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:35:47] ::1:49651 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:35:47] ::1:49651 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [07-10-2026 11:35:47] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [07-10-2026 11:35:47] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [07-10-2026 11:35:47] ::1:49650 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:35:47] ::1:49650 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:35:47] ::1:49650 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:35:47] ::1:49650 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:36:17] ::1:49663 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:36:17] ::1:49664 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:36:17] ::1:49664 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [07-10-2026 11:36:17] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [07-10-2026 11:36:17] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [07-10-2026 11:36:17] ::1:49663 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:36:17] ::1:49663 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:36:17] ::1:49663 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:36:17] ::1:49663 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:36:59] ::1:49680 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:36:59] ::1:49681 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:36:59] ::1:49681 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [07-10-2026 11:36:59] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [07-10-2026 11:36:59] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [07-10-2026 11:36:59] ::1:49680 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:36:59] ::1:49680 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:36:59] ::1:49680 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:36:59] ::1:49680 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:37:29] ::1:49689 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:37:29] ::1:49690 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:37:29] ::1:49690 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [07-10-2026 11:37:29] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [07-10-2026 11:37:29] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [07-10-2026 11:37:29] ::1:49689 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:37:29] ::1:49689 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:37:29] ::1:49689 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:37:29] ::1:49689 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:37:59] ::1:49700 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:37:59] ::1:49701 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:37:59] ::1:49701 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [07-10-2026 11:37:59] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [07-10-2026 11:37:59] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [07-10-2026 11:37:59] ::1:49700 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:37:59] ::1:49700 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:37:59] ::1:49700 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:37:59] ::1:49700 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:38:29] ::1:49709 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:38:29] ::1:49710 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:38:29] ::1:49710 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [07-10-2026 11:38:29] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [07-10-2026 11:38:29] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [07-10-2026 11:38:29] ::1:49709 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:38:29] ::1:49709 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:38:29] ::1:49709 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:38:29] ::1:49709 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:38:59] ::1:49716 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:38:59] ::1:49717 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:38:59] ::1:49717 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [07-10-2026 11:38:59] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [07-10-2026 11:38:59] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [07-10-2026 11:38:59] ::1:49716 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:38:59] ::1:49716 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:38:59] ::1:49716 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:38:59] ::1:49716 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:39:29] ::1:49723 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:39:29] ::1:49724 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:39:29] ::1:49724 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [07-10-2026 11:39:29] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [07-10-2026 11:39:29] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [07-10-2026 11:39:29] ::1:49723 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:39:29] ::1:49723 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:39:29] ::1:49723 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:39:29] ::1:49723 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[36mDEBUG[0m:    [07-10-2026 11:40:04] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [07-10-2026 11:40:04] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [07-10-2026 11:40:04] ::1:49737 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:40:04] ::1:49737 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:40:04] ::1:49737 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:40:05] ::1:49737 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/query HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:40:48] ::1:49773 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:40:48] ::1:49774 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:40:48] ::1:49774 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [07-10-2026 11:40:48] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [07-10-2026 11:40:48] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [07-10-2026 11:40:48] ::1:49773 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:40:48] ::1:49773 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:40:48] ::1:49773 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:40:48] ::1:49773 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:40:59] ::1:49780 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:40:59] ::1:49781 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:40:59] ::1:49781 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [07-10-2026 11:40:59] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [07-10-2026 11:40:59] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [07-10-2026 11:40:59] ::1:49780 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:40:59] ::1:49780 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:40:59] ::1:49780 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:40:59] ::1:49780 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:41:29] ::1:49787 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:41:29] ::1:49788 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:41:29] ::1:49788 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [07-10-2026 11:41:29] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [07-10-2026 11:41:29] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [07-10-2026 11:41:29] ::1:49787 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:41:29] ::1:49787 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:41:29] ::1:49787 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:41:29] ::1:49787 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:42:03] ::1:49807 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:42:03] ::1:49808 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:42:03] ::1:49808 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [07-10-2026 11:42:03] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [07-10-2026 11:42:03] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [07-10-2026 11:42:03] ::1:49807 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:42:03] ::1:49807 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:42:03] ::1:49807 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:42:03] ::1:49807 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:42:49] ::1:49816 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:42:49] ::1:49817 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:42:49] ::1:49817 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [07-10-2026 11:42:49] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [07-10-2026 11:42:49] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [07-10-2026 11:42:49] ::1:49816 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:42:49] ::1:49816 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:42:49] ::1:49816 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:42:49] ::1:49816 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:44:18] ::1:49825 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:44:19] ::1:49826 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:44:19] ::1:49826 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [07-10-2026 11:44:19] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [07-10-2026 11:44:19] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [07-10-2026 11:44:19] ::1:49825 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:44:19] ::1:49825 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:44:19] ::1:49825 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:44:19] ::1:49825 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:45:06] ::1:49832 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:45:06] ::1:49833 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:45:06] ::1:49833 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [07-10-2026 11:45:06] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [07-10-2026 11:45:06] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [07-10-2026 11:45:06] ::1:49832 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:45:06] ::1:49832 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:45:06] ::1:49832 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:45:06] ::1:49832 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:45:36] ::1:49839 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:45:36] ::1:49840 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:45:36] ::1:49840 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [07-10-2026 11:45:36] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [07-10-2026 11:45:36] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [07-10-2026 11:45:36] ::1:49839 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:45:36] ::1:49839 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:45:36] ::1:49839 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:45:36] ::1:49839 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:46:14] ::1:49848 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:46:14] ::1:49849 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:46:14] ::1:49849 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [07-10-2026 11:46:14] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [07-10-2026 11:46:14] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [07-10-2026 11:46:14] ::1:49848 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:46:14] ::1:49848 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:46:14] ::1:49848 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:46:14] ::1:49848 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:47:01] ::1:49868 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:47:01] ::1:49869 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:47:01] ::1:49869 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [07-10-2026 11:47:01] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [07-10-2026 11:47:01] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [07-10-2026 11:47:01] ::1:49868 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:47:01] ::1:49868 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:47:01] ::1:49868 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:47:01] ::1:49868 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:48:34] ::1:49877 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:48:34] ::1:49878 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:48:34] ::1:49878 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [07-10-2026 11:48:34] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [07-10-2026 11:48:34] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [07-10-2026 11:48:34] ::1:49877 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:48:34] ::1:49877 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:48:34] ::1:49877 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:48:34] ::1:49877 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:49:31] ::1:49892 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:49:31] ::1:49893 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:49:31] ::1:49893 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [07-10-2026 11:49:31] Collection queryai_schema already exists, returning existing collection.
+[31mERROR[0m:    [07-10-2026 11:49:31] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[32mINFO[0m:     [07-10-2026 11:49:31] ::1:49892 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:49:31] ::1:49892 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:49:31] ::1:49892 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200
+[32mINFO[0m:     [07-10-2026 11:49:31] ::1:49892 - "GET /api/v2/tenants/default_tenant/databases/default_database/collections/bc1ca896-ca5e-4c7e-8649-6c65b683fa5b/count HTTP/1.1" 200

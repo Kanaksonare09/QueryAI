@@ -1,0 +1,66 @@
+/* ──────────────────────────────────────────────────────────────────────────
+   Global Design System — Offline AI Assistant
+   Palette: deep-space dark + electric-violet accent + cyan glow
+──────────────────────────────────────────────────────────────────────────── */
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg-base:        #08090d;
+  --bg-surface:     #0f111a;
+  --bg-elevated:    #161924;
+  --bg-overlay:     #1e2130;
+
+  --border:         rgba(255,255,255,0.07);
+  --border-glow:    rgba(124,58,237,0.4);
+
+  --accent:         #7c3aed;
+  --accent-bright:  #a855f7;
+  --accent-glow:    rgba(124,58,237,0.25);
+  --cyan:           #06b6d4;
+  --cyan-glow:      rgba(6,182,212,0.2);
+  --green:          #10b981;
+  --red:            #ef4444;
+  --amber:          #f59e0b;
+
+  --text-primary:   #f1f5f9;
+  --text-secondary: #94a3b8;
+  --text-muted:     #475569;
+
+  --radius-sm:      6px;
+  --radius-md:      12px;
+  --radius-lg:      20px;
+  --radius-xl:      28px;
+
+  --shadow-sm:      0 2px 8px rgba(0,0,0,0.4);
+  --shadow-md:      0 4px 24px rgba(0,0,0,0.5);
+  --shadow-lg:      0 8px 48px rgba(0,0,0,0.6);
+  --shadow-accent:  0 0 32px rgba(124,58,237,0.2);
+
+  --font-sans:      'Inter', system-ui, sans-serif;
+  --font-mono:      'JetBrains Mono', monospace;
+
+  --transition:     0.2s ease;
+  --transition-slow:0.4s ease;
+}
+
+html, body {
+  height: 100%;
+  font-family: var(--font-sans);
+  background: var(--bg-base);
+  color: var(--text-primary);
+  overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root { height: 100%; display: flex; }
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 99px; }
+::-webkit-scrollbar-thumb:hover { background: var(--accent); }
+
+/* Utility */
+.sr-only { position: absolute; width:1px; height:1px; padding:0; margin:-1px;
+           overflow:hidden; clip:rect(0,0,0,0); border:0; }

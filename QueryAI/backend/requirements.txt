@@ -1,0 +1,45 @@
+# ── Web Framework ─────────────────────────────────────────────────────────────
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+python-multipart==0.0.17
+httpx==0.28.1
+
+# ── Database ──────────────────────────────────────────────────────────────────
+sqlalchemy==2.0.36
+psycopg2-binary==2.9.10
+alembic==1.14.0
+
+# ── Pydantic / Settings ───────────────────────────────────────────────────────
+pydantic==2.10.3
+pydantic-settings==2.6.1
+
+# ── AI / LLM ─────────────────────────────────────────────────────────────────
+langchain==0.3.10
+langchain-community==0.3.10
+langchain-ollama==0.2.1
+ollama==0.4.4
+
+# ── RAG / Embeddings ──────────────────────────────────────────────────────────
+chromadb==0.5.23
+sentence-transformers==3.3.1
+
+# ── SQL Parsing / Validation ──────────────────────────────────────────────────
+sqlglot==25.26.0
+sqlparse==0.5.2
+
+# ── Security ─────────────────────────────────────────────────────────────────
+slowapi==0.1.9
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+python-dotenv==1.0.1
+structlog==24.4.0
+rich==13.9.4
+tenacity==9.0.0
+tabulate==0.9.0
+python-dateutil==2.9.0
+pandas==2.2.3
+numpy==1.26.4
+aiofiles==24.1.0
+pytest==8.3.3
+pytest-asyncio==0.24.0
+httpx==0.28.1
