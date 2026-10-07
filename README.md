@@ -1,5 +1,8 @@
 # QueryAI V2 — Offline Conversational AI Database Analyst
 
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Kanaksonare09%2FQueryAI-blue?logo=github)](https://github.com/Kanaksonare09/QueryAI)
+
+
 > **A fully offline conversational AI data analyst** capable of understanding natural-language questions, planning database queries, detecting ambiguity, maintaining analytical context across follow-up questions, and performing evidence-based root-cause investigations — while securely querying private MySQL databases.
 
 QueryAI V2 is a production-quality, **fully offline** AI assistant that goes far beyond basic Text-to-SQL. It reasons about your data across multi-turn conversations, intelligently plans queries, detects vague questions, and can autonomously investigate the root cause of metric changes — all powered by local Ollama inference with zero cloud APIs.
